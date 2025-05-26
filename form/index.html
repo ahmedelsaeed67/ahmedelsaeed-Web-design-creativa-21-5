@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <label>User id:<br>
+      <input type="text" name="userid" required pattern=".{5,12}" title="Must be 5 to 12 characters">
+    </label><br><br>
+
+    <label>Password:<br>
+      <input type="password" name="password" required pattern=".{7,12}" title="Must be 7 to 12 characters">
+    </label><br><br>
+
+    <label>Name:<br>
+      <input type="text" name="name" required pattern="[A-Za-z\s]+" title="Alphabets only">
+    </label><br><br>
+
+    <label>Address:<br>
+      <input type="text" name="address">
+    </label><br><br>
+
+    <label>Country:<br>
+      <select name="country" required>
+        <option value="">(Please select a country)</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="India">India</option>
+        <!-- Add more countries as needed -->
+      </select>
+    </label><br><br>
+
+    <label>ZIP Code:<br>
+      <input type="text" name="zipcode" required pattern="\d+" title="Numbers only">
+    </label><br><br>
+
+    <label>Email:<br>
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>Sex:<br>
+      <input type="radio" name="sex" value="male" required> Male
+      <input type="radio" name="sex" value="female" required> Female
+    </label><br><br>
+
+    <label>Language:<br>
+      <input type="checkbox" name="language" value="english" required> English
+      <input type="checkbox" name="language" value="non-english"> Non English
+    </label><br><br>
+
+    <label>About:<br>
+      <textarea name="about" rows="5" cols="30"></textarea>
+    </label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+    
+</body>
+</html>
