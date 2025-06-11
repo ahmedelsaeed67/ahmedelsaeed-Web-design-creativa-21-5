@@ -1,0 +1,443 @@
+/*gloabl css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+      color: #86878B;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.bg-img{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.speaical{
+    color: orangered;
+}
+.d-inline-block {
+    display: inline-block;
+    
+}
+.d-block {
+    display: block;
+}
+/* nav bar*/
+.navbar{
+    background-color: black;
+   
+    
+}
+
+
+.navbar ul{
+    overflow: auto; 
+    width: 50%;
+    float: right;
+    margin: 0;
+    padding-top: 2%;
+    
+}
+.navbar .nav-content{
+    width: 50%;
+    float: left;
+    color: white;
+    font-weight: bold;
+    
+}
+.navbar ul li {
+   
+    float: left;
+    color: white;
+    padding: 3%;
+    
+  
+    
+    
+}
+.banner-aside{
+    width: 40%;
+    display: inline-block;
+}
+.banner-form{
+    background-color: beige;
+    width: 40%;
+}
+#Features{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+#Features .layer{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+#Features .content{
+    width: 45%;
+    float: left;
+    margin: 5%;
+    padding: 3%;
+    color: white;
+}
+#Features .content h2{
+    font-size: 36px;
+}
+#Features .content p{
+    font-size: 14px;
+    
+}
+#Features .content hr {
+      margin: 4% 0;
+    width: 18%;
+    background-color: white;
+    border: 2px solid white;
+}
+#Features .content .btn {
+    background-color: rgba(0, 0, 0, .3);
+    color: inherit;
+    border: solid 1px white;
+    padding: 3%;
+    margin: 2%;
+    font-weight: bold;
+}
+.login-form{
+        margin-top: 20%;
+        padding: 25px;
+    background-color: #fff;
+}
+.login-form h3{
+    background-color: #86878B;
+}
+
+
+
+
+   
+
+    
+
+
+
+
+
+/*about*/
+/* .header-icons{
+    width: 40%;
+}
+
+.content-icons i{
+    margin:0 20px;
+    font-size: 25px;
+} */
+
+
+.taps{
+    width: 20%;
+ } 
+ 
+ .text-about{
+    width: 49%;
+    vertical-align: 30px;
+
+ }
+.taps h3{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff    
+}
+ .img-about{
+    width: 30%;
+ }
+ .btn-tap{
+    color: #F8F8F8;
+    background-color: orangered;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ 
+ 
+
+
+
+
+/*who*/
+#who{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.who-img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.who-img img {
+    width: 100%;
+}
+.who-info {
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.who-info hr{
+    width: 20%;
+     margin: 4% 0;
+     border: solid 2px orangered;
+}
+.who-info h2 {
+    margin-bottom: 20px;
+}
+.who-info p {
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.icons {
+      margin-top: 20px;
+      overflow: hidden;
+      display: inline-block;
+      color: #333;
+      margin-bottom: 5px;
+    }
+ .icon {
+     display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 2px solid orange;
+      border-radius: 50%;
+      color: orange;
+      text-align: center;
+      line-height: 36px;
+      font-size: 18px;
+      margin-right: 15px;
+    }
+    .text {
+      overflow: hidden;
+    }
+
+   
+
+    
+
+/* who2*/
+
+
+#who2 {
+    background-color: #F8F8F8;
+    padding: 2%;
+}
+.who2-content {
+    width: 42%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+.who2-content hr{
+    width: 20%;
+     margin: 4% 0;
+     border: solid 2px orangered;
+
+}
+.who2-content h2 {
+    margin-bottom: 25px;
+}
+.who2-content p {
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.who2-img {
+    width: 43%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+.who2-img img {
+    width: 100%;
+}
+
+
+/* prices*/
+.prices{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.prices h2{
+    text-align: center;
+}
+.prices p{
+      color: #86878B;
+}
+.prices hr{
+     width: 20%;
+     margin: auto;
+     border: solid 2px orangered;
+     
+}
+.cards{
+    
+    width: 25%;
+   margin: 2% 4%;
+    text-align: center;
+    float: left;
+}
+.cards i{
+    border-radius: 70%;
+    border: orangered solid 2px;
+   width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*show*/
+
+.basic h4{
+    /* background-color:black ; */
+    margin-bottom: 1px;
+
+}
+
+
+
+
+
+/*contact*/
+
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+  
+    border-radius: 8px;
+  }
+  
+  .contact-container h1 {
+    font-family: "Source Sans 3", serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #333;
+  }
+  .contact-container hr{
+    width: 20%;
+     margin: auto;
+     border: solid 2px orangered;
+    
+  }
+  
+  form {
+    display: inline-block;
+    
+  }
+  input,
+  textarea {
+    
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+   .btn-contact  {
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+  }
+  .social-icons{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+  }
+  
+  footer .social-icons i {
+     margin:0 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
