@@ -1,0 +1,393 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #5C5B57;
+  
+}
+
+li{
+    list-style: none;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.speacial{
+    color: #5C5B57;
+}
+/*navbar*/
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.navbar{
+    background-color: inherit;
+    color: white;
+    
+    }
+ .nav-list{
+    column-gap: 20px;
+ }   
+
+ hr{
+     color: rgb(255, 255, 255);
+     width: 100%;
+     margin-top: 1%;
+ }
+
+ /*home*/
+ #Home{
+    background-image: url(../images/bg1.jpg);
+     background-size: cover;
+     background-position: center center;
+     height: 100vh;
+     margin-bottom: 4%;
+ }
+ .overlay{
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+ }
+ .banner-content h5,p{
+    color:#5C5B57;
+ }
+ .banner-content{
+    display: flex;
+    margin-top: 40%;
+    gap: 10px;
+ }
+.banner-content h5 {
+  width: 55px;
+  height: 55px;
+  line-height: 15px;
+  text-align: center;
+  color:#5C5B57;
+  font-size: 20px;
+  margin-right: 15px;
+  padding: 15px;
+  border: 5px solid #5C5B57;
+  border-radius: 50%;
+}
+.banner-content p {
+  color: #5C5B57;
+  font-size: 14px;
+}
+
+
+
+/*miss*/
+.main-sec {
+  
+  justify-content: space-around;
+  margin-top: 10%;
+  height: 85vh;
+}
+.sec-left {
+  width: 70%;
+}
+.main-sec-right {
+  width: 30%;
+}
+.card-container {
+  display: flex;
+  margin: 25px 0;
+}
+
+
+
+.labels ul {
+  margin-left: 25px;
+ 
+}
+
+.labels ul li a {
+  font-size: 14px;
+  padding: 0 10px;
+  color:#5C5B57;
+}
+.main-sec-left hr {
+  width: 85%;
+  margin-top: 10px;
+  border: 1px solid #8d8dab3b;
+}
+.main-card {
+  width: 65%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+.main-card img {
+  width: 100%;
+}
+
+.main-card-content {
+  padding: 0 20px;
+}
+.card-desc {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  padding: 20px;
+}
+.card-desc p {
+  font-size: 12px;
+}
+.travel {
+  color: blue;
+  background-color: #b0a6a6;
+  font-size: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+  left: 25px;
+  border-radius: 15px;
+}
+.travel:hover {
+  background-color: blue;
+  color: #fff;
+}
+.cards {
+  margin: 25px;
+ 
+}
+.card {
+  display: flex;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 5px 0;
+}
+.card a{
+     color: #5C5B57;
+}
+.card img {
+  width: 97px;
+  height: 97px;
+}
+.card-details {
+  padding: 0 5px;
+}
+.card-details h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-details .card-desc {
+  padding: 9px 0;
+}
+.main-sec-right {
+  width: 30%;
+  margin-left: 5%;
+}
+.about-world {
+  padding-bottom: 30px;
+}
+.main-sec-right .about-world h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f1f1f1;
+}
+.main-sec-right p {
+  padding: 15px 0;
+  font-size: 14px;
+}
+.main-sec-right .top-stories h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0;
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+}
+.top-stories .cards {
+  margin: 20px 0;
+}
+.top-stories .card img {
+  width: 70px;
+  height: 70px;
+}
+.top-stories .card .card-details {
+  margin-top: 10px;
+}
+
+.stay-connected {
+  margin-top: 25px;
+}
+.stay-connected h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0;
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+}
+.stay-connected .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.social-media a{
+    color: #5C5B57;
+}
+.stay-connected .social-media a {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  border: 1px solid #eeecec;
+  text-align: center;
+  border-radius: 50%;
+}
+.stay-connected .social-media a:hover {
+  color: #0000ff;
+}
+.todays-pick h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px 0;
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+}
+.todays-pick img {
+  margin-top: 15px;
+}
+
+.arrow {
+  margin: 5px;
+}
+.arrow a{
+     color: #5C5B57;
+}
+.arrow a i {
+  font-size: 15px;
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #d8d8d8;
+}
+.arrow a :hover {
+  color: #fff;
+  background-color: #0000ff;
+}
+.labels-trend{
+    width: 65%;
+    padding-top: 2%;
+}
+
+.trand-card {
+  display: flex;
+  justify-content: last baseline;
+}
+.trand .labels ul {
+  margin-left: 0;
+}
+.trand-card {
+  width: 70%;
+}
+.trand-card .big-card {
+  width: 45%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin: 25px 25px 25px 0;
+}
+.big-card img {
+  width: 100%;
+}
+.trand-cards {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+ }
+.trand-cards .card {
+  display: flex;
+  width: 45%;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-banner {
+  position: relative;
+  width: 31%;
+  margin-top: 4%;
+  height: 220px;
+}
+.main-banner:first-child {
+  background: url(../images/b4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-banner:nth-child(2) {
+  background: url(../images/b5.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-banner:nth-child(3) {
+  background: url(../images/b6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-banner-content {
+  color: white;
+  background-color: #25485353;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 0;
+}
+ .main-banner-content .card-desc a{
+
+    color: #f1f1f1;
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+    
+}
+.footer a{
+    color: white;
+}
+
+.footer .one{
+    width: 33%;
+}
+.footer.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container .two ul{
+    display: flex;
+    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.two li{
+    padding: 5px;
+    
+}
+
